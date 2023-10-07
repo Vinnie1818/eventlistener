@@ -1,0 +1,23 @@
+2023-10-07T08:19:22+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\eventlistener\wp-content\plugins\simply-static\src\class-ss-url-extractor.php on line 142
+
+2023-10-07T08:21:57+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\eventlistener\wp-includes\class-wpdb.php on line 2459
+
+2023-10-07T08:30:17+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string + int in C:\xampp\htdocs\eventlistener\wp-content\plugins\mage-eventpress\inc\template-prts\event_ticket_type_extra_service.php:17
+Stack trace:
+#0 C:\xampp\htdocs\eventlistener\wp-includes\class-wp-hook.php(310): mep_output_add_to_cart_custom_fields(17219, 'Ticket Type:', 'Extra Service:', 'Select Event Da...')
+#1 C:\xampp\htdocs\eventlistener\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\eventlistener\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\eventlistener\wp-content\plugins\mage-eventpress\inc\template-prts\event_add_cart.php(145): do_action('mep_event_ticke...', 17219, 'Ticket Type:', 'Extra Service:', 'Select Event Da...')
+#4 C:\xampp\htdocs\eventlistener\wp-includes\class-wp-hook.php(310): mep_get_event_reg_btn(17219)
+#5 C:\xampp\htdocs\eventlistener\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\eventlistener\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\eventlistener\wp-content\plugins\mage-eventpress\templates\themes\royal.php(86): do_action('mep_add_to_cart', 17219)
+#8 C:\xampp\htdocs\eventlistener\wp-content\plugins\mage-eventpress\inc\template-prts\single-events.php(79): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\eventlistener\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\eventlistener\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\eventlistener\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\eventlistener\wp-content\plugins\mage-eventpress\inc\template-prts\event_ticket_type_extra_service.php on line 17
+
+2023-10-07T08:30:23+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\eventlistener\wp-includes\Requests\src\Transport\Curl.php on line 510
+
